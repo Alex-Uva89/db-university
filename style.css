@@ -42,10 +42,12 @@ button {
         background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(245,37,9,1) 0%, rgba(2,0,36,1) 30%);
     }
     30%{
-
+        background: rgb(0,212,255);
+        background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(245,37,9,1) 0%, rgba(2,0,36,1) 40%);
     }
     40%{
-
+        background: rgb(0,212,255);
+        background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(245,37,9,1) 0%, rgba(2,0,36,1) 50%);
     }
     50%{
 
