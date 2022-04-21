@@ -1,3 +1,9 @@
+#root{
+    --background-white: #ffffff;
+    --text: #000000;
+    
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -7,7 +13,7 @@
 
 body {
  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
- color: black;
+ color: #000000;
  -webkit-font-smoothing: antialiased;
  background-size: 400% 400%;
  animation: gradient 15s ease infinite;
@@ -25,14 +31,32 @@ button {
 .container{
     width: 800px;
     margin: 2rem auto;
-    background-color: white;
+    background-color: #ffffff;
     padding: 1rem;
+    border: 2px solid #000000;
 }
 
-h1{
+h1,
+h2{
     text-align: center;
     margin: 3rem 0;
 }
+
+
+ol{
+    width: 70%;
+    margin: 0 auto;
+    padding: 1rem 0;
+}
+
+li{
+    margin-bottom: 1.5rem;
+}
+
+strong{
+    display: block;
+}
+
 
 @keyframes gradient {
     0% {
