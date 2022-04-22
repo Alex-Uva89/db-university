@@ -81,25 +81,25 @@
         <ol>
             <li>
                 <strong>Contare quanti iscritti ci sono stati ogni anno:</strong>
-                SELECT year, COUNT(year) <br>
+                SELECT year, COUNT(year) as iscritti_per_anno<br>
                 FROM `courses` <br>
                 GROUP BY year
             </li>
             <li>
                 <strong>Contare gli insegnanti che hanno l'ufficio nello stesso edificio:</strong>
-                SELECT office_address, COUNT(office_address) <br>
+                SELECT office_address, COUNT(office_address) as insegnanti_per_ufficio<br>
                 FROM `teachers` <br>
                 GROUP BY office_address
             </li>
             <li>
                 <strong>Calcolare la media dei voti di ogni appello d'esame:</strong>
-                SELECT student_id, AVG(vote) <br>
+                SELECT student_id, AVG(vote) as media_voto_studente<br>
                 FROM `exam_student` <br>
                 GROUP BY student_id
             </li>
             <li>
                 <strong>Contare quanti corsi di laurea ci sono per ogni dipartimento:</strong>
-                SELECT degree_id, COUNT(degree_id) <br>
+                SELECT degree_id, COUNT(degree_id) as corsi_in_dipartimento <br>
                 FROM `courses` <br>
                 GROUP BY degree_id
             </li>
